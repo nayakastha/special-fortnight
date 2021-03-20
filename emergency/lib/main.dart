@@ -29,8 +29,6 @@ class _MyAppState extends State<MyApp> {
         backgroundColor: Color.fromRGBO(45, 48, 45, 0.8),
         body: Center(
           child: Ink(
-            height: 300,
-            width: 300,
             color: Color.fromRGBO(61, 48, 40, 1),
             child: InkWell(
               onTap: () async {
